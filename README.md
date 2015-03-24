@@ -13,7 +13,7 @@ If you want to see my previous commits head over [here](https://github.com/wifie
 
 ## Goodies
 
-Take a look in my https://github.com/wifiextender/dotfiles/blob/master/archlinux-openbsd/home/frost/.config/xinitrc
+Take a look in my [xinitrc](https://github.com/wifiextender/dotfiles/blob/master/archlinux-openbsd/home/frost/.config/misc/xinitrc)
 
 Do you want statusbar program <img src="patches/bar.png" alt="" /> ?
 
