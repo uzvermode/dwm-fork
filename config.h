@@ -72,7 +72,8 @@ static const char *mutt[]        =   BASH_EXEC("sakura --execute=\"mutt -F $HOME
 static const char *sakura[]      =   { "sakura", NULL };
 static const char *firefox[]     =   { "firefox", NULL };
 static const char *pdf2img[]     =   { "pdf2img", NULL };
-static const char *subl3[]       =   { "subl3", NULL };
+/*static const char *subl3[]       =   { "subl3", NULL };*/
+static const char *torbundle[]   =   BASH_EXEC("tor-browser-en --dir=/tmp");
 static const char *qbittorrent[] =   { "qbittorrent", NULL };
 
 /* audio */
@@ -87,7 +88,7 @@ static Key keys[] = {
     { 0,                            XF86XK_AudioLowerVolume,      spawn,          {.v = vol_down } },
     { MODKEY2,                      XK_q,                         spawn,          {.v = qbittorrent } },
     { MODKEY2,                      XK_p,                         spawn,          {.v = pdf2img } },
-    { MODKEY2,                      XK_s,                         spawn,          {.v = subl3 } },
+    { MODKEY2,                      XK_s,                         spawn,          {.v = torbundle } },
     { MODKEY2,                      XK_f,                         spawn,          {.v = firefox } },
     { MODKEY2,                      XK_x,                         spawn,          {.v = sakura } },
     { MODKEY2,                      XK_m,                         spawn,          {.v = mutt } },

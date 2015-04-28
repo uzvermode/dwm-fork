@@ -6,7 +6,7 @@ If you want to see my previous commits head over [here](https://github.com/wifie
 
 ## Installation
 
-    ./patchdwm
+    bash patchdwm
     make
     sudo make install
 
