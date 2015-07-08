@@ -13,10 +13,6 @@ If you want to see my previous commits head over [here](https://github.com/wifie
 
 ## Goodies
 
-Take a look in my [xinitrc](https://github.com/wifiextender/dotfiles/blob/master/archlinux-openbsd/home/frost/.config/misc/xinitrc)
-
-Do you want statusbar program <img src="patches/bar.png" alt="" /> ?
-
-There you go: https://github.com/wifiextender/dotfiles/tree/master/archlinux-openbsd/home/frost/.config/dwm_scripts
+Do you want [statusbar](https://github.com/wifiextender/dwm-bar) program <img src="https://raw.githubusercontent.com/wifiextender/dwm-bar/master/img/pic.png" alt="" /> ?
 
 I've recently switched to dwm, read my blog [post](http://wifiextender.github.io/post/openbox-to-dwm/) for more information.
