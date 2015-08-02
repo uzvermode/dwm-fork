@@ -24,6 +24,7 @@ patches_arr=(
     'my_patch.diff' 'dwm-cdec978-center.diff'
     'save_float.diff' 'statuscolours.diff'
     'underline.diff' 'push.diff' 'uselessgap3.diff'
+    'remove_monocle.diff'
 )
 
 
