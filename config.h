@@ -32,11 +32,11 @@ static const char *tags[] = { "\ue17e", "\ue17f", "\ue180", "\ue181", "\ue182", 
 
 static const Rule rules[] = {
     /* class             instance    tags mask    iscentered    isfloating   monitor */
-    /*{ "Firefox",         NULL,       1 << 0,      False,        True,        -1 },
+    /*{ "Firefox",       NULL,     1 << 0,    False,      True,        -1 },
     { "Tor Browser",     NULL,       1 << 0,      False,        True,        -1 },*/
     { "Gimp",            NULL,       1 << 3,      False,        True,        -1 },
-    { "libreoffice-writer",           NULL,       1 << 3,           False,         False,       -1},
-    /*{ "Thunar",          NULL,       0,           True,         True,        -1 },
+    { "libreoffice-writer", NULL,    1 << 4,      False,        False,       -1},
+    /*{ "Thunar",          NULL,       0,         True,         True,        -1 },
     { "Qbittorrent",     NULL,       1 << 2,      False,        True,        -1 },
     { "Wine",            NULL,       1 << 2,      False,        True,        -1 }*/
 };
