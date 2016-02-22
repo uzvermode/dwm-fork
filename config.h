@@ -36,7 +36,7 @@ static const Rule rules[] = {
     { "Tor Browser",     NULL,       1 << 0,      False,        True,        -1 },*/
     { "Gimp",            NULL,       1 << 3,      False,        True,        -1 },
     { "libreoffice-writer", NULL,    1 << 4,      False,        False,       -1},
-    { "Deluge",          NULL,       9,            True,         False,        -1 },
+    { "Deluge",          NULL,       1 << 8,      True,         False,        -1 },
     /*{ "Qbittorrent",     NULL,       1 << 2,      False,        True,        -1 },
     { "Wine",            NULL,       1 << 2,      False,        True,        -1 }*/
 };
